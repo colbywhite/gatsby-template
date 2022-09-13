@@ -1,18 +1,6 @@
 import * as React from 'react';
 import type {HeadFC} from 'gatsby';
-import logo from '../images/icon.png';
-
-
-function Header() {
-  return (
-    <header className="flex flex-row items-center justify-between">
-      <div className="flex flex-row items-center gap-4">
-        <img src={logo} className="motion-safe:animate-spin-slow h-10 pointer-events-none" alt="logo"/>
-        <h6 className="text-xl font-medium">Gatsby template</h6>
-      </div>
-    </header>
-  );
-}
+import Header from '../components/header';
 
 const IndexPage = () => {
   return (
